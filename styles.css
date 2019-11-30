@@ -1,7 +1,8 @@
 body{
-    margin-top: 3cm;
+    margin-top: 1.5cm;
     padding: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open sans', sans-serif;
+    font-size: 18px;
     background: url(bg.jpg);
     background-attachment: fixed;
     background-position: center;
@@ -16,6 +17,7 @@ header{
     background-color: black;
     width: 100%;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
 }
 header .logo
 {
@@ -113,11 +115,42 @@ header nav ul li a.active
 
 h1{
     color: black;
+    font-family: 'Poppins', sans-serif;
     font-weight: bolder;
     font-size: 50px;
     padding-bottom: 10px;
-
+}
+h2{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    padding: 10px 10px;
+    text-align: left;
 }
 h5{
-    font-family: 'Open Sans', sans-serif;
+    padding: 10px 10px;
+}
+
+.page-header{
+    color: rgb(51, 55, 52);
+    padding: 10px ;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1cm;
+  width: 50%;
+}
+main {
+    margin: 20px;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-gap: 20px;
+}
+.box{
+    background-color: rgb(237, 237, 237);
+    border-radius: 20px;
+    padding: 20px;
 }
